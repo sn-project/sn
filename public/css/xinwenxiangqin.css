@@ -43,12 +43,12 @@
     font-size: 18px;
 }
 .biaoleft{
-    background: url("img/1.png") no-repeat center left;
+    background: url("../../public/images/1.png") no-repeat center left;
     background-size:18px 18px;
 }
 .biaoright{
 
-    background: url("img/2.png") no-repeat center left;
+    background: url("../../public/images/2.png") no-repeat center left;
     background-size:18px 18px;
 }
 .biaoleft>a{
@@ -77,7 +77,7 @@
 .zleft{
     width: 440px;
     height: 20px;
-    background: url("img/4.png")no-repeat center;
+    background: url("../../public/images/4.png")no-repeat center;
 }
 .zcenter{
     width: 136px;
@@ -104,7 +104,7 @@
 .zright{
     width: 440px;
     height: 20px;
-    background: url("img/4.png")no-repeat center;
+    background: url("../../public/images/4.png")no-repeat center;
 }
 .xin .left{
     width: 179px;
@@ -130,11 +130,11 @@
     padding-left: 19px;
 }
 .xin .center li:nth-of-type(1){
-    background: url("img/11.png") no-repeat left center;
+    background: url("../../public/images/11.png") no-repeat left center;
     background-size: 16px 16px;
 }
 .xin .center li:nth-of-type(2){
-    background: url("img/12.png") no-repeat left center;
+    background: url("../../public/images/12.png") no-repeat left center;
     background-size: 16px 16px;
 }
  .right{
@@ -220,7 +220,7 @@
 .tuleft{
     width: 124px;
     height: 124px;
-    background: url("img/timg.jpg") no-repeat 0 0;
+    background: url("../../public/images/timg.jpg") no-repeat 0 0;
 }
 .turight{
     width: 372px;
@@ -268,7 +268,7 @@
 .xia{
     width: 100%;
     height:65px;
-    background: url("img/6.jpg") no-repeat center center;
+    background: url("../../public/images/6.png") no-repeat center center;
     position: absolute;
     top:-30px;
 }

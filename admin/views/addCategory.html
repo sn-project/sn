@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit">
+    <title>网站信息</title>  
+    <link rel="stylesheet" href="/sn/public/css/pintuer.css">
+    <link rel="stylesheet" href="/sn/public/css/admin.css">
+    <script src="/sn/public/js/jquery.js"></script>
+    <script src="/sn/public/js/pintuer.js"></script>
+    <script src="/sn/public/js/addCategory.js"></script>
+
+</head>
+<body>
+<div class="panel admin-panel margin-top">
+  <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>增加内容</strong></div>
+  <div class="body-content">
+    <form method="post" class="form-x" action="">
+      <div class="form-group">
+        <div class="label">
+          <label>分类名称：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" name="cname" value="" data-validate="required:请输入标题" />
+          <div class="tips"></div>
+        </div>
+      </div>
+        <div class="form-group">
+            <div class="label">
+                <label>分类链接名称：</label>
+            </div>
+            <div class="field">
+                <input type="text" class="input w50" name="cnameEn" value="" data-validate="required:请输入分类链接名称" />
+                <div class="tips"></div>
+            </div>
+        </div>
+      <div class="form-group">
+        <div class="label">
+          <label>分类图片：</label>
+        </div>
+        <div class="field">
+          <!--<input type="file" id="url1" name="thumb" class="input tips form-control" style="width:25%; float:left;"  value="" data-toggle="hover" data-place="right" data-image="" id="image"/>-->
+
+          <!--<input type="button" class="button bg-blue margin-left" id="image1" value="+ 浏览上传"  style="float:left;">-->
+            <input type="file" class="form-control" id="image" multiple>
+            <input type="hidden" class="form-control" id="image1"  name="thumb">
+            <div class="imgbox"></div>
+          <div class="tipss">图片尺寸：1920*200</div>
+        </div>
+          <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+              </div>
+          </div>
+      </div>
+       <div class="form-group">
+        <div class="label">
+          <label>英文标题：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" name="cnameE" value="" />
+          <div class="tips"></div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="label">
+          <label>pid：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" name="pid" value="0"  data-validate="required:,number:pid必须为数字" />
+          <div class="tips"></div>
+        </div>
+      </div>
+     <div class="form-group">
+        <div class="label">
+          <label></label>
+        </div>
+        <div class="field">
+          <button class="button bg-main icon-check-square-o" type="submit"> 提交</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+</body></html>
